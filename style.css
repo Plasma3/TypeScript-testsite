@@ -1,0 +1,42 @@
+.center {
+    width: 50%;
+    max-width: 1000px;
+    transform: translateY(-70%);
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: dimgray;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    font-family: arial;
+}
+
+input {
+    width: 100%;
+    background-color: dimgray;
+}
+
+input[type=text] {
+    font-size: 4rem;
+
+    padding: 0.1em 0.25em;
+    margin: 0.1em 0;
+    box-sizing: border-box;
+
+    border: none;
+    border-bottom: 0.125em solid gray;
+    outline: none;
+
+    transition: border-bottom 0.4s ease-in-out;
+    resize: none;
+}
+
+input[type=text]:focus {
+    border-bottom: 0.125em solid darkgray;
+}
